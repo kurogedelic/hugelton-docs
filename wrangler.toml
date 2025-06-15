@@ -11,4 +11,6 @@ custom_domain = true
 [build]
 command = "npm install && node build.js"
 cwd = "."
-destination = "./public"
+
+[assets]
+directory = "./public"
