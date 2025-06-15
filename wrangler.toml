@@ -1,4 +1,0 @@
-name = "hugelton-docs"
-
-# Static site configuration for Cloudflare Pages
-pages_build_output_dir = "public"
