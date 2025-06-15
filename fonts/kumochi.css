@@ -1,0 +1,14 @@
+@font-face {
+	font-family: "Kumochi";
+	src: url("KumochiRegular.woff2") format("woff2"),
+		url("KumochiRegular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.kumochi {
+	font-family: "Kumochi";
+	font-weight: normal;
+	font-style: normal;
+}
