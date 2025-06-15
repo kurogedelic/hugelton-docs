@@ -1,16 +1,4 @@
 name = "hugelton-docs"
-compatibility_date = "2025-01-01"
 
-[env.production]
-compatibility_date = "2025-01-01"
-
-[[env.production.route]]
-pattern = "documents.hugelton.com/*"
-custom_domain = true
-
-[build]
-command = "npm install && node build.js"
-cwd = "."
-
-[assets]
-directory = "./public"
+# Static site configuration for Cloudflare Pages
+pages_build_output_dir = "public"

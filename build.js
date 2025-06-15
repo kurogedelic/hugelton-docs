@@ -99,6 +99,7 @@ function main() {
 	// 静的ファイルをコピー
 	copyFile("manual-styles.css", path.join(publicDir, "manual-styles.css"));
 	copyFile("addiction.js", path.join(publicDir, "addiction.js"));
+	copyFile("_headers", path.join(publicDir, "_headers"));
 	copyDir("fonts", path.join(publicDir, "fonts"));
 	copyDir("assets", path.join(publicDir, "assets"));
 	copyDir("src", path.join(publicDir, "src"));
