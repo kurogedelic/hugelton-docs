@@ -1,0 +1,6 @@
+name = "hugelton-docs"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "public"
+
+[env.production]
+route = { pattern = "documents.hugelton.com", custom_domain = true }

@@ -4,6 +4,7 @@
   "main": "build.js",
   "scripts": {
     "build": "node build.js",
+    "deploy": "npm run build && npx wrangler pages deploy public --project-name hugelton-docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
